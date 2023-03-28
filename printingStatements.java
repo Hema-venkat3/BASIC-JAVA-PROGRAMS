@@ -1,11 +1,13 @@
 public class printingStatements {
 	public static void main(String args[]) {
-		System.out.println("Mother: KOMATHY");
-		System.out.println("Father: VENKATESAN");
-		System.out.println("Age: 21");
-		System.out.println("MOTHER: KOMATHY");
-		System.out.println("Phone number: 923978456");
-		System.out.println("Address: No.18,Aiyappan street,Arakkonam-631001,Tamil Nadu, India");
+		String mother = "KOMATHY", father = "VENKATESAN", address = "NO.18, TOWNHALL 3RD STREET, STUARTPET ", city = "ARAKKONAM", state = "TAMILNADU", country = "INDIA";
+		int age = 21;
+		int contact_number = 923456781;
+		System.out.println("Mother: " + mother);
+		System.out.println("Father: " + father);
+		System.out.println("Age: " + age);
+		System.out.println("Phone number: " + contact_number);
+		System.out.println("Address: " +address+ " " +city+ " " +state+ " " +country);
 
 	}
 }
