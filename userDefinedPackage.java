@@ -1,3 +1,4 @@
+//creating a user defined package
 package myPackage;
 
 public class userDefinedPackage {
